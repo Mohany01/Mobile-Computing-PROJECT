@@ -1,0 +1,35 @@
+name: mobile_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # 👉 Added for calling phone numbers / opening links
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints
+  # to encourage good coding practices.
+  flutter_lints: ^6.0.0
+
+flutter:
+  # ✅ MUST be indented under "flutter:"
+  uses-material-design: true
+
+  # If you add images later, you can uncomment this:
+  # assets:
+  #   - assets/
